@@ -14,6 +14,10 @@ Práctica dirigida de SQL (CTEs, funciones de ventana, joins multi-tabla, agrega
 4. **Rotación de inventario** — ¿qué tan rápido rota el stock por categoría y dónde hay riesgo de quiebre? → `queries/04_rotacion_inventario.sql`
 5. **Retención de clientes** — ¿qué porcentaje de clientes nuevos vuelve a comprar en los meses siguientes? (cohortes) → `queries/05_retencion_cohortes.sql`
 
+## Dashboard en vivo
+
+[Ver dashboard en Looker Studio](https://datastudio.google.com/reporting/0442bb0b-9ff8-4b49-8943-82747b6651da/page/Nqv4F) — 5 visualizaciones conectadas directo a BigQuery, una por cada pregunta de negocio.
+
 ## Stack
 
 - **BigQuery** (sandbox gratuito, dataset público) — motor SQL
@@ -44,4 +48,4 @@ Práctica dirigida de SQL (CTEs, funciones de ventana, joins multi-tabla, agrega
 
 ## Estado del proyecto
 
-Las 5 queries ejecutadas contra BigQuery real y verificadas. Pendiente: dashboard en Looker Studio y push a GitHub.
+Proyecto completo: 5 queries ejecutadas contra BigQuery real y verificadas, dashboard en Looker Studio publicado y repo en GitHub.
